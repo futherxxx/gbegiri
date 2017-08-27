@@ -1,0 +1,127 @@
+﻿
+@{
+    ViewBag.Title = "FoodMenu";
+}
+
+<div class="wthree-menu">
+    <img src="~/Images/i2.jpg" class="w3order-img" alt="" />
+    <div class="container">
+        <h3 class="w3ls-title">Menu</h3>
+        <p class="w3lsorder-text">Here your Staple Food Varieties</p>
+        <div class="menu-agileinfo">
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Breakfast</a>*@
+                @Html.ActionLink("Breakfast", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Salads</a>*@
+                @Html.ActionLink("Salads", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Hot Food</a>*@
+                @Html.ActionLink("Hot Food", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Breads</a>*@
+                @Html.ActionLink("Breads", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @Html.ActionLink("Deli Pots & Little Pots", "Products", "Home")
+                @*<a href="products.html"> Deli Pots & Little Pots</a>*@
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Snacks & Treats</a>*@
+                @Html.ActionLink("Snacks & Treats", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @Html.ActionLink("Drinks", "Products", "Home")
+                @*<a href="products.html"> Drinks</a>*@
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> South Indian</a>*@
+                @Html.ActionLink("South Indian", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Catering</a>*@
+                @Html.ActionLink("Catering", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Soups</a>*@
+                @Html.ActionLink("Soups", "Products", "Home")
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @Html.ActionLink("Lunchbox", "Products", "Home")
+                @*<a href="products.html"> Lunchbox</a>*@
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                @*<a href="products.html"> Dinner</a>*@
+                @Html.ActionLink("Dinner", "Products", "Home")
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="w3spl-menu">
+            <h3 class="w3ls-title">Seasonal  Menu</h3>
+            <p class="w3lsorder-text">Here your Staple Food Varieties</p>
+            <div class="menu-agileinfo">
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @*<a href="products.html">Fondue Savoyarde</a>*@
+                    @Html.ActionLink("Fondue Savoyarde", "Products", "Home")
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @Html.ActionLink("Garbure", "Products", "Home")
+                    @*<a href="products.html">Garbure</a>*@
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @*<a href="products.html">Poulet</a>*@
+                    @Html.ActionLink("Poulet", "Products", "Home")
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @*<a href="products.html">Cherry Clafouti</a>*@
+                    @Html.ActionLink("Cherry Clafouti", "Products", "Home")
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @Html.ActionLink("Spinach Soufflé", "Products", "Home")
+                    @*<a href="products.html"> Spinach Soufflé</a>*@
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @Html.ActionLink("Baeckeoffe", "Products", "Home")
+                    @*<a href="products.html">Baeckeoffe</a>*@
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    @*<a href="products.html">Ratatouille</a>*@
+                    @Html.ActionLink("Ratatouille", "Products", "Home")
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 menu-w3lsgrids">
+                    <a href="products.html">Piperade</a>
+                    @Html.ActionLink("Piperade", "Products", "Home")
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //menu list -->
+<!-- add-products -->
+<div class="add-products">
+    <div class="container">
+        <h3 class="w3ls-title w3ls-title1">Today's Offers</h3>
+        <div class="add-products-row">
+            <div class="w3ls-add-grids">
+                <a href="~/Home/Products">
+                    <h4>Get <span>10%<br>Cashback</span></h4>
+                    <h5>Special Offer Today Only</h5>
+                    <h6>Order Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
+                </a>
+            </div>
+            <div class="w3ls-add-grids w3ls-add-grids-right">
+                <a href="~/Home/Products">
+                    <h4>GET Upto<span><br>5% Offer</span></h4>
+                    <h5>On Order Lunch Today</h5>
+                    <h6>Order Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></h6>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<!-- //add-products --> 
