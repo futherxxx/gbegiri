@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * mincart
  * The Mini Cart is a great way to improve your PayPal shopping cart integration.
  *
@@ -2393,6 +2393,7 @@ var currencies = {
     MXN: { before: '$', code: true },
     MYR: { before: 'RM' },
     NOK: { before: 'kr' },
+    NGN: { before: '₦', code: true },
     NZD: { before: '$', code: true },
     PEN: { before: 'S/' },
     PHP: { before: 'Php' },

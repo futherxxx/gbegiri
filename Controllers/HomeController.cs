@@ -37,5 +37,9 @@ namespace GbegiriWeb.Controllers
             ViewBag.Message = "Products Page";
             return View();
         }
+        public ActionResult BuySell()
+        {
+            return View();
+        }
     }
 }

@@ -1,7 +1,24 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title" style="text-align:center">@Html.ActionLink("Buy Food", "FoodMenu", "Home")</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h2 class="panel-title" style="text-align:center"><a></a>@Html.ActionLink("Sell Food", "Login", "Account")</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @*<div class="jumbotron">
     <h1>ASP.NET</h1>
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
